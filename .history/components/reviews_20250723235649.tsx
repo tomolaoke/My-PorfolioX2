@@ -33,7 +33,7 @@ export function Reviews() {
     <section className="py-16 md:py-24">
       <div className="container mx-auto px-4">
         <h2 className="text-3xl md:text-4xl font-bold text-center mb-12">
-          Recent <span className="text-primary">Reviews</span>
+           <span className="text-primary">Reviews</span>
         </h2>
         <div className="grid md:grid-cols-3 gap-8">
           {reviews.map((review, index) => (

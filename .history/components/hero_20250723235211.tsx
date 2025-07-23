@@ -134,7 +134,7 @@ export function Hero() {
                 }}
               />
               <Image
-                src="/bolu_icon/blackdevillust-removebg-preview.png"
+                src="/bolu_icon/public/bolu_icoblackdevillust-removebg-preview.png"
                 alt="Developer Illustration"
                 width={500}
                 height={500}

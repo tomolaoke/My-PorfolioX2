@@ -26,13 +26,13 @@ export function ParticlesBackground() {
 
   return (
     <Particles
-      className="absolute bg inset-0 -z-10"
+      className="absolute inset-0 -z-10"
       id="tsparticles"
       particlesLoaded={particlesLoaded}
       options={{
         background: {
           color: {
-            value: "red",
+            value: "0F151B",
           },
         },
         fpsLimit: 60,

@@ -5,6 +5,7 @@ import { Download, Menu, X } from "lucide-react"
 import { ThemeToggle } from "@/components/theme-toggle"
 import { useEffect, useState } from "react"
 import { motion, AnimatePresence } from "framer-motion"
+import { throttle } from 'lodash'
 
 export function Header() {
   const [activeSection, setActiveSection] = useState("home")
@@ -15,31 +16,52 @@ export function Header() {
     const handleScroll = () => {
       // Set scrolled state for navbar background
       setScrolled(window.scrollY > 50)
-
+  
       // Determine active section
       const sections = ["home", "about", "skills", "projects", "contact"]
-      const scrollPosition = window.scrollY + 100
-
-      // Find the current section by checking if we've scrolled past its top
-      for (const sectionId of sections) {
-        const element = document.getElementById(sectionId)
-        if (element) {
-          const offsetTop = element.offsetTop
-          const offsetHeight = element.offsetHeight
-
-          if (scrollPosition >= offsetTop && scrollPosition < offsetTop + offsetHeight) {
-            setActiveSection(sectionId)
-            break
+      const headerHeight = 80 // Match the header height constant
+      const scrollPosition = window.scrollY + headerHeight
+  
+      // Get the sections that are currently in view
+      const visibleSections = sections
+        .map(sectionId => {
+          const element = document.getElementById(sectionId)
+          if (!element) return null
+  
+          const rect = element.getBoundingClientRect()
+          const offsetTop = rect.top + window.scrollY
+          return {
+            id: sectionId,
+            offsetTop,
+            height: rect.height
           }
+        })
+        .filter(Boolean)
+  
+      // Find the section that takes up most of the viewport
+      let currentSection = visibleSections[0]?.id || "home"
+      for (const section of visibleSections) {
+        if (scrollPosition >= section.offsetTop && 
+            scrollPosition < section.offsetTop + section.height) {
+          currentSection = section.id
+          break
         }
       }
+  
+      setActiveSection(currentSection)
     }
-
+  
+    // Add throttling to prevent too many calculations
+    const throttledHandleScroll = throttle(handleScroll, 100)
+  
     // Initial check for active section
     handleScroll()
-
-    window.addEventListener("scroll", handleScroll)
-    return () => window.removeEventListener("scroll", handleScroll)
+  
+    window.addEventListener("scroll", throttledHandleScroll)
+    return () => {
+      window.removeEventListener("scroll", throttledHandleScroll)
+      throttledHandleScroll.cancel()
+    }
   }, [])
 
   const scrollToSection = (sectionId: string) => {
@@ -77,7 +99,7 @@ export function Header() {
         <div className="flex items-center justify-between h-16">
           <button onClick={() => scrollToSection("home")} className="flex items-center space-x-2">
             <motion.span
-              className="text-xl font-bold text-
+              className="text-xl font-bold text-blue-500"
               whileHover={{ scale: 1.05 }}
               transition={{ type: "spring", stiffness: 400, damping: 10 }}
             >
@@ -109,7 +131,7 @@ export function Header() {
             <ThemeToggle />
             <Button asChild>
               <a
-                href="https://drive.google.com/file/d/1w9-k26Hkm0AbYKQDaV3yo4SsELAJ5Nny/view?usp=sharing"
+                href="https://drive.google.com/file/d/1aednc3muw9JfjvuQavmBw9uh7s-H6i5L/view?usp=sharing"
                 target="_blank"
                 className="flex items-center space-x-2"
                 rel="noreferrer"
