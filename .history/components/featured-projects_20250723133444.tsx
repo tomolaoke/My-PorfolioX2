@@ -25,7 +25,7 @@ const projects: Project[] = [
     title: "QRcode Generation Payment API",
     description:
       "A QR code generation API for payment processing.",
-    image: "/projects/QRPaymentGenerator.jpg",
+    image: "/projects/fleetmanager-tech.png",
     url: "https://github.com/tomolaoke/QRcode-payment-api",
     technologies: ["Java", "Springboot", "PostgresSQL", "RESTful API"],
   },
@@ -34,7 +34,7 @@ const projects: Project[] = [
     title: "SafeNet9Ja",
     description:
       "Worked with a team on the backend of the platform focused on community safety and disaster management in Nigeria, that uses AI and machine learning to provide real-time alerts, predictive risk analysis, and direct communication with emergency services.",
-    image: "/projects/SafeNet9ja.png",
+    image: "/projects/quizlink.png",
     url: "https://safenet9ja.onrender.com",
     technologies: ["JavaScript", "Node.ja", "SendGrid", "Twilio"],
   },
@@ -42,10 +42,10 @@ const projects: Project[] = [
     id: "03",
     title: "BetWise Backend",
     description:
-      "A backend API for a betting platform that allows users to place bets, view odds, and manage their accounts.",
-    image: "/projects/Betwise-img.png",
+      "Worked with a team on the backend of the platform focused on community safety and disaster management in Nigeria, that uses AI and machine learning to provide real-time alerts, predictive risk analysis, and direct communication with emergency services.",
+    image: "/projects/quizlink.png",
     url: "https://github.com/tomolaoke/BetWise-backend",
-    technologies: ["JavaScript", "Node.ja", "MongoDb", "Postman", "Git"],
+    technologies: ["JavaScript", "Node.ja", "SendGrid", "Twilio"],
   },
 ]
 

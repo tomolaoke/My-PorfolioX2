@@ -21,7 +21,7 @@ const projects: Project[] = [
     id: "01",
     title: "PiggyVest + Shop",
     description:
-      "piggyvestshop is a clone of the PiggyVest website, built with Next.js and Tailwind CSS. It features a responsive design, user authentication, and a product catalog.",
+      "",
     image: "/bolu_icon/piggyvestshop-img.png",
     link: "https://github.com/tomolaoke/piggyvestshop/blob/main/README.md",
     github: "https://github.com/tomolaoke/piggyvestshop",

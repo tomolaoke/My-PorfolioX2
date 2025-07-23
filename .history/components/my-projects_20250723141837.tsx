@@ -19,12 +19,12 @@ interface Project {
 const projects: Project[] = [
   {
     id: "01",
-    title: "PiggyVest + Shop",
+    title: "Nestpally ZIVO",
     description:
-      "piggyvestshop is a clone of the PiggyVest website, built with Next.js and Tailwind CSS. It features a responsive design, user authentication, and a product catalog.",
-    image: "/bolu_icon/piggyvestshop-img.png",
-    link: "https://github.com/tomolaoke/piggyvestshop/blob/main/README.md",
-    github: "https://github.com/tomolaoke/piggyvestshop",
+      "Pocket Tracker App is a simple tool designed to help you manage and monitor your expenses efficiently",
+    image: "/bolu_icon/Propmate-img.png",
+    link: "https://github.com/babafemiolatona/pocket-tracker/blob/master/README.md",
+    github: "https://github.com/babafemiolatona/pocket-tracker",
   },
   {
     id: "02",
@@ -37,7 +37,7 @@ const projects: Project[] = [
   },
   {
     id: "02",
-    title: "Property Management System Baackend",
+    title: "Property Management System Baa",
     description:
       "Propmate is a property management system that allows users to manage their properties and tenants easily.",
     image: "/bolu_icon/Propmate-img.png",

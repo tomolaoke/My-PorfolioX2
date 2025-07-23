@@ -25,7 +25,7 @@ const projects: Project[] = [
     title: "QRcode Generation Payment API",
     description:
       "A QR code generation API for payment processing.",
-    image: "/projects/QRPaymentGenerator.jpg",
+    image: "/projects/fleetmanager-tech.png",
     url: "https://github.com/tomolaoke/QRcode-payment-api",
     technologies: ["Java", "Springboot", "PostgresSQL", "RESTful API"],
   },

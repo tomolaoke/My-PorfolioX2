@@ -63,7 +63,7 @@ export function About() {
           </motion.div>
 
           <motion.div className="space-y-6" style={{ opacity: textOpacity, y: textY }}>
-            <div className="text-black-500 max-w-lg">
+            <div className="text-b-500 max-w-lg">
               <motion.p
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}

@@ -32,7 +32,7 @@ export function ParticlesBackground() {
       options={{
         background: {
           color: {
-            value: "#3e365f",
+            value: "#9da8de",
           },
         },
         fpsLimit: 60,
