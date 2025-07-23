@@ -25,9 +25,9 @@ export function Contact() {
     try {
       const result = await emailjs.sendForm(
         "service_fa53xbd",
-        "template_vkmosvq",
+        "template_2cwju7l",
         formRef.current,
-        "6dqLCUEr6ku1A6DEP"
+        "EhFVTitmCvc1-k2gi"
       )
 
       console.log(result)
@@ -158,12 +158,12 @@ export function Contact() {
                 <div className="flex items-center space-x-4 mt-2">
                   {[
                     {
-                      href: "https://www.linkedin.com/in/tomolaoke",
+                      href: "https://linkedin.com/in/tomolaoke",
                       icon: <Linkedin className="w-5 h-5" />,
                       label: "LinkedIn",
                     },
-                    { href: "https://www.github.com/tomolaoke", icon: <Github className="w-5 h-5" />, label: "GitHub" },
-                    { href: "https://www.twitter.com/eda__xx", icon: <Twitter className="w-5 h-5" />, label: "Twitter" },
+                    { href: "https://github.com/tomolaoke", icon: <Github className="w-5 h-5" />, label: "GitHub" },
+                    { href: "https://twitter.com/eda__xx", icon: <Twitter className="w-5 h-5" />, label: "Twitter" },
                   ].map((social) => (
                     <motion.div key={social.label} whileHover={{ scale: 1.1, y: -3 }} whileTap={{ scale: 0.95 }}>
                       <Link
@@ -207,18 +207,9 @@ export function Contact() {
               />
             </motion.div>
             <motion.div variants={itemVariants}>
-              <Input
-                type="text"
-                name="title"
-                placeholder="Subject"
-                required
-                className="bg-transparent border-border/50 focus:border-primary transition-colors duration-300"
-              />
-            </motion.div>
-            <motion.div variants={itemVariants}>
               <Textarea
                 name="message"
-                placeholder="How can I be of service?"
+                placeholder="How can I help?"
                 required
                 className="min-h-[120px] bg-transparent border-border/50 focus:border-primary transition-colors duration-300"
               />

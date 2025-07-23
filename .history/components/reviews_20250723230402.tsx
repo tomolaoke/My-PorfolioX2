@@ -13,18 +13,18 @@ const reviews = [
       "Learning and Working with Tommy as colleague and on an hackathon project was a great experience. His technical expertise and attention to detail is unique",
   },
   {
-    name: "Patience Okorie",
+    name: "Patience",
     role: "Project Manager",
     image: "/bolu_icon/Ellipse 2664.png",
     content:
       "Exceptional developer who brings both technical skill and creative thinking to every project. A pleasure to work with.",
   },
   {
-    name: "Sodiq CodeEnigma",
-    role: "Fullstack Software Developer",
+    name: "Farouk Ejalonibu",
+    role: "Frontend Engineer",
     image: "/bolu_icon/Ellipse 2664.png",
     content:
-      "Tomola's backend development skills is great but him Google and AI including AI agents in IDE, it's crazy. AI don scatter him head lol!",
+      "Boluwatife's backend development skills are top-notch. He consistently delivers high-quality, well-documented code.",
   },
 ]
 

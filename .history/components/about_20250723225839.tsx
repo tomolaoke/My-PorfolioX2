@@ -70,7 +70,7 @@ export function About() {
                 transition={{ duration: 0.5, delay: 0.1 }}
                 viewport={{ once: true }}
               >
-                I am a Software Developer and a backend biased engineer that loves learning and building innovative solutions. I have excellent
+                I am a Software Developer and a backend baised engineer that loves learning and building innovative solutions. I have excellent
                 organization skills, I am meticulous, and always looking for ways to improve on myself and skill set.
               </motion.p>
               <motion.p

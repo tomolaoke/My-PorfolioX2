@@ -218,7 +218,7 @@ export function Contact() {
             <motion.div variants={itemVariants}>
               <Textarea
                 name="message"
-                placeholder="How can I be of service?"
+                placeholder="How can I help?"
                 required
                 className="min-h-[120px] bg-transparent border-border/50 focus:border-primary transition-colors duration-300"
               />

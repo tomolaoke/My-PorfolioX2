@@ -70,7 +70,7 @@ export function About() {
                 transition={{ duration: 0.5, delay: 0.1 }}
                 viewport={{ once: true }}
               >
-                I am a Software Developer and a backend biased engineer that loves learning and building innovative solutions. I have excellent
+                I am a backend engineer that loves learning and building innovative solutions. I have excellent
                 organization skills, I am meticulous, and always looking for ways to improve on myself and skill set.
               </motion.p>
               <motion.p
@@ -80,10 +80,9 @@ export function About() {
                 viewport={{ once: true }}
               >
                 I've worked on projects using React, Tailwindcss and JavaScript. Apart from that, I have developed databases,
-                and integrated APIs. I also don't brag as I still don't consider myself a fully proper Software Developer as I am
-                a continuos learner and my ability to uniquely put my prompt engineering skills to use in my projects is what
-                makes me stand out. I am very enthusiastic about bringing the best out of myself and my team to life. Writing clear, readable,
-                code is important to me, and I believe that every little detail in my code matters to me.
+                and integrated APIs. I also don't brag as I still don't consider myself a fully confident Software. I am very enthusiastic about bringing the
+                technical and visual aspects of digital products to life. Writing clear, readable, highly performant
+                code matters to me.
               </motion.p>
               <motion.p
                 initial={{ opacity: 0, y: 20 }}
@@ -91,11 +90,10 @@ export function About() {
                 transition={{ duration: 0.5, delay: 0.3 }}
                 viewport={{ once: true }}
               >
-                My real tech transitioning journey started in and around 2024, and since then, I've continued to grow and evolve as
-                a developer, taking on new challenges and learning the latest technologies along the way. Now, 2 years
+                I began my journey as a software engineer in 2022, and since then, I've continued to grow and evolve as
+                a developer, taking on new challenges and learning the latest technologies along the way. Now, 3 years
                 after starting my software engineering journey, I'm building cutting-edge software applications using
-                modern technologies such as React.js, Javascript, FastAPI, Tailwindcss, and more. Integrating AI into my projects
-                is also a passion of mine, and I love exploring how AI can enhance user experiences and streamline development processes.
+                modern technologies such as React.js, Javascript, FastAPI, Tailwindcss, and more.
               </motion.p>
             </div>
           </motion.div>

@@ -53,8 +53,8 @@ export function Hero() {
                 >
                   <TypingAnimation
                     words={[
-                      "Entry-Level Software Developer",
-                      "Software Dev MERN stack",
+                      "Software ",
+                      "Software Developer MERN stack",
                       "Python Developer",
                       "AI Prompt Engineer",
                       "Machine Learning Enthusiast",
@@ -73,9 +73,10 @@ export function Hero() {
                 animate={{ y: 0, opacity: 1 }}
                 transition={{ delay: 1.1, duration: 0.8 }}
               >
-                As a versatile software engineer with a bias for backend development, I thrive in designing system architectures and leveraging the MERN 
-                stack for full-stack solutions. My passion also spans Java, Python, AI, Machine Learning and prompt engineering. Outside of engineering,
-                I serve as a World Team Member and 'Independent Distributor' for NeoLife, a leading USA-based network marketing company, driving business development.
+                As a multifaceted software engineer specializing in Java backend development, particularly within fintech,
+                I excel in system architecture and the MERN stack for fullstack solutions. My expertise extends to Python,
+                AI, and Machine Learning. Beyond engineering, I lead as a World Team Member as 'Independent Distributor' in business development with NeoLife,
+                a top network marketing company headquartered in the USA.
               </motion.p>
             </div>
 

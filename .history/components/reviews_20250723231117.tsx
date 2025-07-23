@@ -20,7 +20,7 @@ const reviews = [
       "Exceptional developer who brings both technical skill and creative thinking to every project. A pleasure to work with.",
   },
   {
-    name: "Sodiq CodeEnigma",
+    name: "Sodiq",
     role: "Fullstack Software Developer",
     image: "/bolu_icon/Ellipse 2664.png",
     content:

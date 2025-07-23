@@ -74,8 +74,7 @@ export function Hero() {
                 transition={{ delay: 1.1, duration: 0.8 }}
               >
                 As a versatile software engineer with a bias for backend development, I thrive in designing system architectures and leveraging the MERN 
-                stack for full-stack solutions. My passion also spans Java, Python, AI, Machine Learning and prompt engineering. Outside of engineering,
-                I serve as a World Team Member and 'Independent Distributor' for NeoLife, a leading USA-based network marketing company, driving business development.
+                stack for full-stack solutions. My passion also spans Java, Python, AI, Machine Learning and prompt engineering. Outside of engineering, I serve as a World Team Member and 'Independent Distributor' for NeoLife, a leading USA-based network marketing company, driving business development.
               </motion.p>
             </div>
 

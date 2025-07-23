@@ -27,7 +27,7 @@ export function Contact() {
         "service_fa53xbd",
         "template_vkmosvq",
         formRef.current,
-        "6dqLCUEr6ku1A6DEP"
+        ""
       )
 
       console.log(result)
@@ -207,18 +207,9 @@ export function Contact() {
               />
             </motion.div>
             <motion.div variants={itemVariants}>
-              <Input
-                type="text"
-                name="title"
-                placeholder="Subject"
-                required
-                className="bg-transparent border-border/50 focus:border-primary transition-colors duration-300"
-              />
-            </motion.div>
-            <motion.div variants={itemVariants}>
               <Textarea
                 name="message"
-                placeholder="How can I be of service?"
+                placeholder="How can I help?"
                 required
                 className="min-h-[120px] bg-transparent border-border/50 focus:border-primary transition-colors duration-300"
               />

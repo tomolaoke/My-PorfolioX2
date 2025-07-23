@@ -20,11 +20,11 @@ const reviews = [
       "Exceptional developer who brings both technical skill and creative thinking to every project. A pleasure to work with.",
   },
   {
-    name: "Sodiq CodeEnigma",
-    role: "Fullstack Software Developer",
+    name: "Sodiq",
+    role: "Frontend Engineer",
     image: "/bolu_icon/Ellipse 2664.png",
     content:
-      "Tomola's backend development skills is great but him Google and AI including AI agents in IDE, it's crazy. AI don scatter him head lol!",
+      "Boluwatife's backend development skills are top-notch. He consistently delivers high-quality, well-documented code.",
   },
 ]
 
