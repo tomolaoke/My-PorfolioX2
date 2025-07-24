@@ -13,7 +13,7 @@ const projects = [
     id: "01",
     title: "Pocket Tracker Application",
     description:
-      "Propmate is a property management system that allows users to manage their properties, tenants easily and efficiently.",
+      "Pocket Tracker App is a simple tool designed to help you manage and monitor your expenses efficiently",
     image: "/bolu_icon/Propmate-img.png",
     link: "https://github.com/tomolaoke/propmate-TM",
   },
@@ -21,7 +21,7 @@ const projects = [
     id: "02",
     title: "TicketHUB Application",
     description:
-      "Propmate is a property management system that allows users to manage their properties and tenants easily.",
+      "",
     image: "/bolu_icon/Propmate-img.png",
     link: "https://github.com/tomolaoke/PropertyManagementAppBackend",
   },

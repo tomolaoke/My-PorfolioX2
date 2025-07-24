@@ -131,7 +131,7 @@ export function Header() {
             <ThemeToggle />
             <Button asChild>
               <a
-                href="https://drive.google.com/file/d/17r2D-QTY0agU-dxBwTmKjas4OHu8rHzG/view?usp=sharing"
+                href=""
                 target="_blank"
                 className="flex items-center space-x-2"
                 rel="noreferrer"

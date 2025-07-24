@@ -15,7 +15,7 @@ const projects = [
     description:
       "Pocket Tracker App is a simple tool designed to help you manage and monitor your expenses efficiently",
     image: "/bolu_icon/image 771.png",
-    link: "https://github.com/babafemiolatona/pocket-tracker",
+    link: "https://github.com/tomolaoke/propmate-TM/blob/main/README.md",
   },
   {
     id: "02",
@@ -25,7 +25,6 @@ const projects = [
     image: "/bolu_icon/TicketHUB.png",
     link: "https://github.com/bolexs/TicketHUB",
   },
-  
 ]
 
 export function Projects() {

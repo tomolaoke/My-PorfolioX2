@@ -14,16 +14,16 @@ const projects = [
     title: "Pocket Tracker Application",
     description:
       "Pocket Tracker App is a simple tool designed to help you manage and monitor your expenses efficiently",
-    image: "/bolu_icon/image 771.png",
-    link: "https://github.com/babafemiolatona/pocket-tracker",
+    image: "/bolu_icon/Propmate-img.png",
+    link: "https://github.com/tomolaoke/propmate-TM",
   },
   {
     id: "02",
     title: "TicketHUB Application",
     description:
-      "TicketHUB aims to provide developers with a seamless and efficient experience for integrating event ticketing functionality into their applications.",
-    image: "/bolu_icon/TicketHUB.png",
-    link: "https://github.com/bolexs/TicketHUB",
+      "TicketHUB aims to provide developers with a seamless and efficient experience for ir applications.",
+    image: "/bolu_icon/Propmate-img.png",
+    link: "https://github.com/tomolaoke/PropertyManagementAppBackend",
   },
 ]
 

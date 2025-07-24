@@ -32,7 +32,7 @@ const projects: Project[] = [
     description:
       "Propmate is a property management system that allows users to manage their properties, tenants easily and efficiently.",
     image: "/bolu_icon/Propmate-img.png",
-    link: "https://github.com/tomolaoke/propmate-TM/blob/main/README.md",
+    link: "https://github.com/bolexs/TicketHUB/blob/main/README.md",
     github: "https://propmatengr.vercel.app",
   },
   {
